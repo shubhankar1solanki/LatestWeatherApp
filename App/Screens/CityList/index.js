@@ -41,7 +41,6 @@ const Index = ({navigation}) => {
 
   const renderCity = ({item, index}) => {
     const onPressCity = () => {
-      debugger;
       dispatch({
         type: SET_SELECTED_CITY,
         payload: item,
